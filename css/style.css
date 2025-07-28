@@ -592,6 +592,12 @@ footer.row {
     transition: all 0.3s ease;
 }
 
+.webflow {
+    width: 45%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
 .reactjs {
     width: 20%;
     height: auto;
@@ -610,7 +616,7 @@ footer.row {
     transition: all 0.3s ease;
 }
 
-.reactjs:hover, .nuxtjs:hover, .wordpress:hover, .glide:hover, .nextjs:hover, .notion:hover, .html-css-js:hover {
+.reactjs:hover, .nuxtjs:hover, .wordpress:hover, .glide:hover, .nextjs:hover, .notion:hover, .html-css-js:hover, .webflow:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
     border-color: transparent;

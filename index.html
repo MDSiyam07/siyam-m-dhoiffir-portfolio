@@ -219,13 +219,22 @@
                             </div>
                         </div>
                         <div class="portfolio-item" data-content="Spacer"></div> -->
-                        <!-- Portfolio Item 6 -->
-                        <div class="portfolio-item" data-content="This is a WordPress project.">
+                        <!-- Portfolio Item 6 // Projet commenté pour l'instant : raison = lien mort -->
+                        <!-- <div class="portfolio-item" data-content="This is a WordPress project.">
                             <a>
                                 <img class="wordpress" src="assets/img/logo/logo-wordpress.png" alt="WP" />
                             </a>
                             <div class="portfolio-text">
                                 <a data-toggle="modal" data-target="#wpModal">Apple.com sous WordPress</a>
+                            </div>
+                        </div> -->
+                        <!-- Portfolio Item 7 -->
+                        <div class="portfolio-item" data-content="This is a Webflow project.">
+                            <a>
+                                <img class="webflow" src="assets/img/logo/logo-webflow.png" alt="Webflow" />
+                            </a>
+                            <div class="portfolio-text">
+                                <a data-toggle="modal" data-target="#webflowModal">Boutique BOUNSI CREATIONS</a>
                             </div>
                         </div>
                         <div class="portfolio-item" data-content="Spacer"></div>
@@ -653,6 +662,48 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+
+        <!-- Webflow Project Modal -->
+        <div class="modal fade" id="webflowModal" tabindex="-1" role="dialog" aria-labelledby="rbTitle">
+            <div class="modal-dialog wide" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-center" id="rbTitle">Détails du projet</h3>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                    <h2>Boutique BOUNSI CREATIONS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+                    <p>Ce projet a été réalisé dans le cadre de la formation <strong>Intro to No-Code</strong> de <strong>Le Wagon</strong>.</p>
+                    <p>Il s'agit de ma toute première automatisation no-code complète. L’objectif : créer un site e-commerce fictif et automatiser la gestion des inscriptions à la newsletter.</p>
+                    <p class="mb-30">Le formulaire d’inscription est connecté à Airtable, et un email de bienvenue est automatiquement envoyé via SendGrid grâce à un scénario Zapier. La fonction d’achat est désactivée car la boutique est fictive, mais toute la logique d’automatisation est fonctionnelle.</p>
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+                    <p><strong>Technologies Utilisées :</strong></p>
+                    <p class="mb-30">
+                        <span class="label tag">Webflow</span>
+                        <span class="label tag">Airtable</span>
+                        <span class="label tag">Zapier</span>
+                        <span class="label tag">SendGrid</span>
+                    </p>
+                    <a class="btn td-btn outline green mb-30" href="https://bounsi-creations-site.webflow.io" target="_blank" title="Link to Webflow Project">
+                        <span class="glyphicon glyphicon-link"></span> Voir le projet</a>
+                    </div>
+                </div><!-- /.row -->
+                <div class="modal-footer center">
+                    <button type="button" class="btn td-btn outline small" data-dismiss="modal">Fermer la fenêtre</button>
+                </div><!-- /.modal-footer -->
+                </div><!-- /.modal-body -->
+            </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->  
 
     </body>
     <script src="js/script.js"></script>
