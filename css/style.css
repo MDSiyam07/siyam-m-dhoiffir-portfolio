@@ -238,6 +238,7 @@ footer.row {
   background-color: #fffefd;
   border: none;
   box-shadow: 0 3px 6px rgba(8,33,30,0.2);
+  border-radius: 32px;
 }
 .modal-body {
   padding: 30px;
@@ -274,6 +275,7 @@ footer.row {
   padding: 12px 36px;
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out;
+  border-radius: 32px;
 }
 .td-btn + .td-btn {
   margin-left: 6px;
@@ -418,7 +420,7 @@ footer.row {
     background: #f9f9f9;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 32px;
 }
 
 .timeline-content h5 {
@@ -456,6 +458,7 @@ footer.row {
     margin: 15px 0;
     padding: 15px 30px;
     font-size: 1.1em;
+    border-radius: 32px;
 }
 
 #cv h4 {
@@ -592,6 +595,12 @@ footer.row {
     transition: all 0.3s ease;
 }
 
+.framer {
+    width: 50%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
 .webflow {
     width: 45%;
     height: auto;
@@ -616,11 +625,11 @@ footer.row {
     transition: all 0.3s ease;
 }
 
-.reactjs:hover, .nuxtjs:hover, .wordpress:hover, .glide:hover, .nextjs:hover, .notion:hover, .html-css-js:hover, .webflow:hover {
+.reactjs:hover, .nuxtjs:hover, .wordpress:hover, .glide:hover, .nextjs:hover, .notion:hover, .html-css-js:hover, .webflow:hover, .framer:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
     border-color: transparent;
-    border-radius: 10%;
+    border-radius: 32px;
 }
 
 .qrcode {
@@ -789,7 +798,7 @@ footer.row {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         transform: scale(1.05);
         border-color: transparent;
-        border-radius: 10%;
+        border-radius: 32px;
     }
 
     #contact .col-xs-12.col-sm-6 {
