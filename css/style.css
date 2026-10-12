@@ -428,15 +428,16 @@ footer.row {
     font-weight: bold;
 }
 
-#timeline li:nth-child(1) { --accent-color: #333333; } /* Naissance */
-#timeline li:nth-child(2) { --accent-color: #444444; } /* BAC */
-#timeline li:nth-child(3) { --accent-color: #555555; } /* EPITECH */
-#timeline li:nth-child(4) { --accent-color: #666666; } /* Stage iWineResto */
-#timeline li:nth-child(5) { --accent-color: #777777; } /* Université Beijing */
-#timeline li:nth-child(6) { --accent-color: #888888; } /* Stage Klee Group */
-#timeline li:nth-child(7) { --accent-color: #999999; } /* Titre Expert */
-#timeline li:nth-child(8) { --accent-color: #AAAAAA; } /* Formation WordPress */
-#timeline li:nth-child(9) { --accent-color: #BBBBBB; } /* Volontariat AriMayi */
+#timeline li:nth-child(1) { --accent-color: #CCCCCC; } /* Naissance */
+#timeline li:nth-child(2) { --accent-color: #BBBBBB; } /* BAC */
+#timeline li:nth-child(3) { --accent-color: #AAAAAA; } /* EPITECH */
+#timeline li:nth-child(4) { --accent-color: #999999; } /* Stage iWineResto */
+#timeline li:nth-child(5) { --accent-color: #888888; } /* Université Beijing */
+#timeline li:nth-child(6) { --accent-color: #777777; } /* Stage Klee Group */
+#timeline li:nth-child(7) { --accent-color: #666666; } /* Titre Expert */
+#timeline li:nth-child(8) { --accent-color: #555555; } /* Formation WordPress */
+#timeline li:nth-child(9) { --accent-color: #444444; } /* Volontariat AriMayi */
+#timeline li:nth-child(10) { --accent-color: #333333; } /* Alternance Nostrum Care */
 
 /* =====================
   CV
